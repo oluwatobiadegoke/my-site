@@ -7,6 +7,15 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      space: ["Space Mono", "monospace"],
+    },
+    colors: {
+      lighterGrey: "#D3D3D3",
+      lightGrey: "#808080",
+      darkGrey: "#5A5A5A",
+      darkerGrey: "#222222",
+    },
     extend: {},
   },
   plugins: [],
